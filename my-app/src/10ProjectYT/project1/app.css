@@ -1,0 +1,97 @@
+.content {
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img {
+    width: 60px;
+}
+
+.navbar-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.navbar-item {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #2e2e2e;
+    cursor: pointer;
+}
+.navbar-item:hover {
+    text-decoration: underline;
+}
+.btn {
+    outline: none;
+    border: none;
+    padding: 10px 16px;
+    color: white;
+    min-width: 75px;
+    min-height: 31px;
+    font-size: 16px;
+}
+
+.btnPrimary {
+    background: #d01c28;
+    color: white;
+}
+
+.btnOutline {
+    border: 1px solid #5a5959;
+    color: #5a5959;
+    background-color: transparent;
+}
+.hero {
+    display: flex;
+    align-items: center;
+}
+.hero-left {
+    flex: 1;
+}
+.hero-left h1 {
+    font-size: 108px;
+    line-height: 1.0588;
+}
+.hero-left .desc {
+    margin-top: 20px;
+    width: 404px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #5a5959;
+}
+
+.hero-right {
+    width: 48%;
+}
+
+.hero-control {
+    display: flex;
+    gap: 20px;
+}
+.hero-right img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    display: block;
+}
+
+.desc-contact {
+    font-size: 16px;
+    line-height: 19.36px;
+
+    color: #5a5959;
+}
+
+.contact-link {
+    display: flex;
+    gap: 10px;
+}
+.contact-link img {
+    width: 30px;
+}
